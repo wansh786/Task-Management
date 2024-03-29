@@ -1,6 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "/api",
+  baseURL: "https://giddy-gray-hen.cyclic.app/api",
 });
 export default api;
+  

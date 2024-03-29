@@ -5,7 +5,7 @@ const { validateEmail } = require("../utils/validation");
 
 
 exports.signup = async (req, res) => {
-  try {
+  try { 
     const { name, email, password } = req.body;
     if (!name || !email || !password) {
       return res.status(400).json({ msg: "Please fill all the fields" });
